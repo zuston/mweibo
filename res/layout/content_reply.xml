@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:fitsSystemWindows="true">
+    
+	<com.beardedhen.androidbootstrap.BootstrapEditText
+	    android:id="@+id/ReplyinfoTextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="10"
+            android:layout_margin="5dp"
+            android:hint="(对评论回复)" 
+            bootstrapbutton:be_state="success"
+            />
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_gravity="right"
+	    android:gravity="right"
+	    >
+	    
+	    
+	    
+	    <com.beardedhen.androidbootstrap.BootstrapButton
+	        android:id="@+id/ReplycancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="  cancel"
+                bootstrapbutton:bb_icon_left="fa-trash"
+                bootstrapbutton:bb_roundedCorners="false"
+                bootstrapbutton:bb_size="small"
+                bootstrapbutton:bb_type="danger"
+               />
+	    
+	    <com.beardedhen.androidbootstrap.BootstrapButton
+	        android:id="@+id/ReplysendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="  reply"
+                bootstrapbutton:bb_icon_left="fa-weibo"
+                bootstrapbutton:bb_roundedCorners="false"
+                bootstrapbutton:bb_size="small"
+                bootstrapbutton:bb_type="success" 
+                />
+	    
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:layout_marginTop="10dp">
+    
+	<ImageView 
+	    android:id="@+id/commentHeaderPic"
+	    android:layout_width="50dp"
+	    android:layout_height="50dp"
+	    android:src="@drawable/noheaderpic"
+	    android:padding="5dp"
+	    />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_comment_selector_style"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        
+        >
+        <TextView
+            android:id="@+id/commentContent"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="这条微博还是不错的"
+            android:textSize="12sp"
+            /> 
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal"
+                android:layout_gravity="right"
+                >
+        <TextView 
+            android:id="@+id/commentUsername"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="傻叉蘸蘸酱"
+            android:textColor="#D15FEE"
+            android:textSize="11sp"
+            />
+        <TextView 
+            android:id="@+id/commentTime"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2014.10.10"
+            android:textSize="10sp"
+            android:textColor="#ABABAB"
+            />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
