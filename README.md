@@ -10,4 +10,4 @@ due to the dev sina api ,i don't have the complete authority of the api.
 * 
 
 ##Screenshots
-![主页][http://shacha.qiniudn.com/mweibo-1.png]
+![主页](http://shacha.qiniudn.com/mweibo-1.png)
